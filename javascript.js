@@ -46,7 +46,7 @@ equalButton.addEventListener('click', () => {
     const a = parseInt(operation[0]);
     const b = operation[1];
     const c = parseInt(operation[2]);
-    if(c == 0){
+    if(b == "/" && c == 0){
         display.textContent = "World Ended"
         return;
     }
