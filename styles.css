@@ -1,0 +1,40 @@
+body{
+    /* background-color: grey; */
+    display: flex;
+}
+
+#calcBody{
+    height: 200px;
+    width: 150px;
+    background-color:blue;
+    border: solid black;
+    padding: 10px;
+}
+
+#calcDisplay{
+    height: 20px;
+    border: solid black;
+    background-color: white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+#buttonBox{
+    box-sizing: border-box;
+    height: 160px;
+    border: solid black;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.displayButton, .clearButton, .equalButton{
+    background-color: lightgrey;
+    height: 28px;
+    width: 28px;
+}
+
